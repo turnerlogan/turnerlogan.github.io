@@ -3,6 +3,46 @@
   <head>
     <meta charset="utf-8">
     <title><h1>Assignment 4</h1></title>
+    <style>
+		table {
+			border:1px solid #000000;
+			border-collapse:collapse;
+			padding:5px;
+		}
+		table th {
+			border:1px solid #000000;
+			padding:5px;
+			background: #f0f0f0;
+      height: 50px;
+      width: 50px;
+		}
+		table td {
+			border:1px solid #000000;
+			text-align: center;
+			padding:5px;
+			background: #ffffff;
+			color: #313030;
+      height: 50px;
+      width: 50px;
+      margin: auto;
+		}
+    .black{
+      background-color: #000000;
+      font-size: 50px;
+      text-align: center;
+      color: white;
+      padding: 5px;
+      vertical-align: middle;
+    }
+    .white{
+      background-color: #ffffff;
+      font-size: 50px;
+      text-align: center;
+      color: black;
+      padding: 5px;
+      vertical-align: middle;
+    }
+	</style>
   </head>
   <body>
     <div></div>  <!--challenge 1 -->
@@ -10,88 +50,90 @@
 
     <div>  <!--challenge 2 -->
       <h2>Challenge 2: Build a Chessboard</h2>
-      <table style="border:5px solid black">
-        <tr>
-          <td style="background-color:black;height:50px"></td>
-          <th class="tg-73oq"></th>
-          <th class="tg-hfk9"></th>
-          <th class="tg-73oq"></th>
-          <th class="tg-hfk9"></th>
-          <th class="tg-73oq"></th>
-          <th class="tg-hfk9"></th>
-          <th class="tg-73oq"></th>
-        </tr>
-        <tr>
-          <td class="tg-73oq"></td>
-          <td class="tg-ibzd"></td>
-          <td class="tg-73oq"></td>
-          <td class="tg-ibzd"></td>
-          <td class="tg-73oq"></td>
-          <td class="tg-hfk9"></td>
-          <td class="tg-73oq"></td>
-          <td class="tg-hfk9"></td>
-        </tr>
-        <tr>
-          <td class="tg-hfk9"></td>
-          <td class="tg-73oq"></td>
-          <td class="tg-hfk9"></td>
-          <td class="tg-73oq"></td>
-          <td class="tg-ibzd"></td>
-          <td class="tg-73oq"></td>
-          <td class="tg-ibzd"></td>
-          <td class="tg-73oq"></td>
-        </tr>
-        <tr>
-          <td class="tg-73oq"></td>
-          <td class="tg-ibzd"></td>
-          <td class="tg-73oq"></td>
-          <td class="tg-ibzd"></td>
-          <td class="tg-73oq"></td>
-          <td class="tg-hfk9"></td>
-          <td class="tg-73oq"></td>
-          <td class="tg-ibzd"></td>
-        </tr>
-        <tr>
-          <td class="tg-ibzd"></td>
-          <td class="tg-73oq"></td>
-          <td class="tg-ibzd"></td>
-          <td class="tg-73oq"></td>
-          <td class="tg-ibzd"></td>
-          <td class="tg-73oq"></td>
-          <td class="tg-ibzd"></td>
-          <td class="tg-73oq"></td>
-        </tr>
-        <tr>
-          <td class="tg-73oq"></td>
-          <td class="tg-ibzd"></td>
-          <td class="tg-73oq"></td>
-          <td class="tg-ibzd"></td>
-          <td class="tg-73oq"></td>
-          <td class="tg-ibzd"></td>
-          <td class="tg-73oq"></td>
-          <td class="tg-ibzd"></td>
-        </tr>
-        <tr>
-          <td class="tg-ibzd"></td>
-          <td class="tg-73oq"></td>
-          <td class="tg-ibzd"></td>
-          <td class="tg-73oq"></td>
-          <td class="tg-ibzd"></td>
-          <td class="tg-73oq"></td>
-          <td class="tg-ibzd"></td>
-          <td class="tg-73oq"></td>
-        </tr>
-        <tr>
-          <td class="tg-73oq"></td>
-          <td class="tg-ibzd"></td>
-          <td class="tg-73oq"></td>
-          <td class="tg-ibzd"></td>
-          <td class="tg-73oq"></td>
-          <td class="tg-ibzd"></td>
-          <td class="tg-73oq"></td>
-          <td class="tg-ibzd"></td>
-        </tr>
-      </table>
+      <table>
+      		<tbody>
+      			<tr>
+              <td class="black">&#9814;&nbsp;</td>
+              <td class="white">&#9822;&nbsp;</td>
+              <td class="black">&#9815;&nbsp;</td>
+      				<td class="white">&#9819;&nbsp;</td>
+              <td class="black">&#9818;&nbsp;</td>
+      				<td class="white">&#9815;&nbsp;</td>
+              <td class="black">&#9822;&nbsp;</td>
+      				<td class="white">&#9814;&nbsp;</td>
+      			</tr>
+      			<tr>
+              <td class="white">&#9817;&nbsp;</td>
+              <td class="black">&#9817;&nbsp;</td>
+      				<td class="white">&#9817;&nbsp;</td>
+              <td class="black">&#9817;&nbsp;</td>
+      				<td class="white">&#9817;&nbsp;</td>
+              <td class="black">&#9817;&nbsp;</td>
+      				<td class="white">&#9817;&nbsp;</td>
+      				<td class="black">&#9817;&nbsp;</td>
+      			</tr>
+            <tr>
+              <td class="black">&nbsp;</td>
+              <td class="white">&nbsp;</td>
+              <td class="black">&nbsp;</td>
+      				<td class="white">&nbsp;</td>
+              <td class="black">&nbsp;</td>
+      				<td class="white">&nbsp;</td>
+              <td class="black">&nbsp;</td>
+      				<td class="white">&nbsp;</td>
+      			</tr>
+      			<tr>
+              <td class="white">&nbsp;</td>
+              <td class="black">&nbsp;</td>
+      				<td class="white">&nbsp;</td>
+              <td class="black">&nbsp;</td>
+      				<td class="white">&nbsp;</td>
+              <td class="black">&nbsp;</td>
+      				<td class="white">&nbsp;</td>
+      				<td class="black">&nbsp;</td>
+      			</tr>
+            <tr>
+              <td class="black">&nbsp;</td>
+              <td class="white">&nbsp;</td>
+              <td class="black">&nbsp;</td>
+      				<td class="white">&nbsp;</td>
+              <td class="black">&nbsp;</td>
+      				<td class="white">&nbsp;</td>
+              <td class="black">&nbsp;</td>
+      				<td class="white">&nbsp;</td>
+      			</tr>
+      			<tr>
+              <td class="white">&nbsp;</td>
+              <td class="black">&nbsp;</td>
+      				<td class="white">&nbsp;</td>
+              <td class="black">&nbsp;</td>
+      				<td class="white">&nbsp;</td>
+              <td class="black">&nbsp;</td>
+      				<td class="white">&nbsp;</td>
+      				<td class="black">&nbsp;</td>
+      			</tr>
+            <tr>
+              <td class="black">&#9817;&nbsp;</td>
+              <td class="white">&#9817;&nbsp;</td>
+              <td class="black">&#9817;&nbsp;</td>
+      				<td class="white">&#9817;&nbsp;</td>
+              <td class="black">&#9817;&nbsp;</td>
+      				<td class="white">&#9817;&nbsp;</td>
+              <td class="black">&#9817;&nbsp;</td>
+      				<td class="white">&#9817;&nbsp;</td>
+      			</tr>
+      			<tr>
+              <td class="white">&#9814;&nbsp;</td>
+              <td class="black">&#9822;&nbsp;</td>
+      				<td class="white">&#9815;&nbsp;</td>
+              <td class="black">&nbsp;&#9819;</td>
+      				<td class="white">&#9818;&nbsp;</td>
+              <td class="black">&#9815;&nbsp;</td>
+      				<td class="white">&#9822;&nbsp;</td>
+      				<td class="black">&#9814;&nbsp;</td>
+      			</tr>
+      		</tbody>
+      	</table>
     </div>
 
     <div>  <!--challenge 3 -->
