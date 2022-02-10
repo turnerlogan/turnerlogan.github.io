@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment 5</title>
+    <style>
+		table {
+			border:0px solid #000000;
+			border-collapse:collapse;
+			padding:5px;
+		}
+		table th {
+			border:0px solid #000000;
+			padding:5px;
+			background: #f0f0f0;
+      height: 50px;
+      width: 50px;
+		}
+		table td {
+			border:0px solid #000000;
+			text-align: center;
+			padding:5px;
+			background: #ffffff;
+			color: #313030;
+      height: 50px;
+      width: 50px;
+      margin: auto;
+		}
+    .black{
+      background-color: #000000;
+      font-size: 50px;
+      text-align: center;
+      color: white;
+      padding: 5px;
+      vertical-align: middle;
+    }
+    .white{
+      background-color: #ffffff;
+      font-size: 50px;
+      text-align: center;
+      color: black;
+      padding: 5px;
+      vertical-align: middle;
+    }
+	</style>
+  </head>
+  <body>
+    <div>
+    <section id="Assignment5" style="margin-top: 10px">
+    <h1>Assignment 5</h1>
+    <!--challenge 1 -->
+    <h2>Return to Table of Contents</h2>
+    <ul>
+      <li>
+        <a href="https://github.com/turnerlogan/turnerlogan.github.io/blob/main/index.html">Table of Contents</a>
+      </li>
+    </ul>
+    </section>
+    </div>
+
+    <div>  <!--challenge 2 -->
+      <section id="Challenge5.2" style="margin-top: 10px">
+      <h2>Challenge 2: Build a Chessboard</h2>
+      <p><em>Updates: I made the margin spacing smaller and modified the tabel border so that I could reuse it for another challenge.</em></p>
+      <table>
+      		<tbody>
+      			<tr>
+              <td class="black">&#9814;&nbsp;</td>
+              <td class="white">&#9822;&nbsp;</td>
+              <td class="black">&#9815;&nbsp;</td>
+      				<td class="white">&#9819;&nbsp;</td>
+              <td class="black">&#9818;&nbsp;</td>
+      				<td class="white">&#9815;&nbsp;</td>
+              <td class="black">&#9822;&nbsp;</td>
+      				<td class="white">&#9814;&nbsp;</td>
+      			</tr>
+      			<tr>
+              <td class="white">&#9817;&nbsp;</td>
+              <td class="black">&#9817;&nbsp;</td>
+      				<td class="white">&#9817;&nbsp;</td>
+              <td class="black">&#9817;&nbsp;</td>
+      				<td class="white">&#9817;&nbsp;</td>
+              <td class="black">&#9817;&nbsp;</td>
+      				<td class="white">&#9817;&nbsp;</td>
+      				<td class="black">&#9817;&nbsp;</td>
+      			</tr>
+            <tr>
+              <td class="black">&nbsp;</td>
+              <td class="white">&nbsp;</td>
+              <td class="black">&nbsp;</td>
+      				<td class="white">&nbsp;</td>
+              <td class="black">&nbsp;</td>
+      				<td class="white">&nbsp;</td>
+              <td class="black">&nbsp;</td>
+      				<td class="white">&nbsp;</td>
+      			</tr>
+      			<tr>
+              <td class="white">&nbsp;</td>
+              <td class="black">&nbsp;</td>
+      				<td class="white">&nbsp;</td>
+              <td class="black">&nbsp;</td>
+      				<td class="white">&nbsp;</td>
+              <td class="black">&nbsp;</td>
+      				<td class="white">&nbsp;</td>
+      				<td class="black">&nbsp;</td>
+      			</tr>
+            <tr>
+              <td class="black">&nbsp;</td>
+              <td class="white">&nbsp;</td>
+              <td class="black">&nbsp;</td>
+      				<td class="white">&nbsp;</td>
+              <td class="black">&nbsp;</td>
+      				<td class="white">&nbsp;</td>
+              <td class="black">&nbsp;</td>
+      				<td class="white">&nbsp;</td>
+      			</tr>
+      			<tr>
+              <td class="white">&nbsp;</td>
+              <td class="black">&nbsp;</td>
+      				<td class="white">&nbsp;</td>
+              <td class="black">&nbsp;</td>
+      				<td class="white">&nbsp;</td>
+              <td class="black">&nbsp;</td>
+      				<td class="white">&nbsp;</td>
+      				<td class="black">&nbsp;</td>
+      			</tr>
+            <tr>
+              <td class="black">&#9817;&nbsp;</td>
+              <td class="white">&#9817;&nbsp;</td>
+              <td class="black">&#9817;&nbsp;</td>
+      				<td class="white">&#9817;&nbsp;</td>
+              <td class="black">&#9817;&nbsp;</td>
+      				<td class="white">&#9817;&nbsp;</td>
+              <td class="black">&#9817;&nbsp;</td>
+      				<td class="white">&#9817;&nbsp;</td>
+      			</tr>
+      			<tr>
+              <td class="white">&#9814;&nbsp;</td>
+              <td class="black">&#9822;&nbsp;</td>
+      				<td class="white">&#9815;&nbsp;</td>
+              <td class="black">&nbsp;&#9819;</td>
+      				<td class="white">&#9818;&nbsp;</td>
+              <td class="black">&#9815;&nbsp;</td>
+      				<td class="white">&#9822;&nbsp;</td>
+      				<td class="black">&#9814;&nbsp;</td>
+      			</tr>
+      		</tbody>
+      	</table>
+      </section>
+    </div>
+
+    <div>  <!--challenge 3 -->
+      <h2>Challenge 3: Create a Form</h2>
+      <section id="Challenge5.3" style="margin-top: 10px">
+      <p><em>Updates: I made the margin spacing smaller and added a question with the new kbd tag.</em></p>
+      <form>
+        <p>What is your favorite animal?</p>
+        <label for="favanimal">What is your favorite animal?</label><br>
+        <input type="text" id="favanimal" name="favanimal"><br>
+
+        <p>Select your <strong>least</strong> favorite primary color.</p>
+        <input type="radio" id="Red" name="color" value="Red">
+        <label for="Red">Red</label><br>
+        <input type="radio" id="Yellow" name="color" value="Yellow">
+        <label for="Yellow">Yellow</label><br>
+        <input type="radio" id="Blue" name="color" value="Blue">
+        <label for="Blue">Blue</label><br>
+
+        <p>Select all <strong>true</strong> statements.</p>
+        <input type="checkbox" id="ski" name="ski" value="ski">
+        <label for="ski">I like to ski.</label><br>
+        <input type="checkbox" id="snowboard" name="snowboard" value="snowboard">
+        <label for="snowboard">I like to snowboard.</label><br>
+        <input type="checkbox" id="snowshoe" name="snowshoe" value="snowshoe">
+        <label for="snowshoe">I like to snowshoe.</label><br>
+        <input type="checkbox" id="nosnow" name="nosnow" value="nosnow">
+        <label for="nosnow">I don't like playing in the snow.</label><br>
+
+        <p>Which system uses <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text?</p>
+        <input type="radio" id="Windows" name="Windows" value="Windows">
+        <label for="Windows">Windows</label><br>
+        <input type="radio" id="Mac" name="Mac" value="Mac">
+        <label for="Mac">Mac</label><br>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+    </div>
+    <div>  <!--challenge 4 -->
+      <section id="Challenge5.4" style="margin-top: 10px;margin-left: 10px; margin-right:10px; padding:5px;">
+      <h2>Challenge 4: A Google Search Page</h2>
+      <p><em>Updates: I made the margin spacing smaller and added content to this challenge.</em></p>
+      <p>About 3,400,000,000 results (0.86 seconds)</p><br>
+
+      <div>
+        <p>https://www.colorado.edu > atlas</p>
+        <h3><a href="https://colorado.edu/atlas">ATLAS Institute | University of Colorado Boulder</a></h3>
+        <p><strong>ATLAS</strong> is an interdisciplinary <strong>institute</strong>
+         for radical creativity and invention. We transform ingenious ideas into reality
+         through research, ...</p>
+         	<table style="margin-left: 20px">
+         		<tbody>
+         			<tr>
+         				<td><h3><a href="https://www.colorado.edu/atlas/academics/grad">Graduate Degrees in Creative ...</a></h3><p>Radically interdisciplinary, ATLAS graduate programs nurture ...</p>&nbsp;</td>
+         				<td><h3><a href="https://www.colorado.edu/atlas/about-atlas">About</a></h3><p>ATLAS is an interdisciplinary institute for radical creativity and ...</p>&nbsp;</td>
+         			</tr>
+         			<tr>
+                <td><h3><a href="https://www.colorado.edu/atlas/academics">Academics</a></h3><p>Granted through the College of Engineering and Applied ...</p>&nbsp;</td>
+         				<td><h3><a href="https://www.colorado.edu/atlas/academics/undergraduate">Undergraduate Programs</a></h3><p>Awarded through the College of Engineering and Applied ...</p>&nbsp;</td>
+         			</tr>
+         			<tr>
+         				<td><h3><a href="https://www.colorado.edu/atlas/faculty">Faculty</a></h3><p>Lecturer, co-chair Board of Advisors DESIGN, AR/VR ...</p>&nbsp;</td>
+         				<td><h3><a href="https://www.colorado.edu/atlas/research-creative">Research + Creative</a></h3><p>Check out ATLAS Research Showcase 2020.</p>&nbsp;</td>
+         			</tr>
+         		</tbody>
+         	</table>
+          <p><a href="https://www.google.com/search?q=atlas+institute+site:colorado.edu&sa=X&ved=2ahUKEwiDzY2RnPb1AhUQHTQIHQqmDtAQrAN6BAgTEAE&biw=1440&bih=734&dpr=1">More results from colorado.edu >></a></p>
+      </div><br>
+
+      <div>
+        <p>https://www.colorado.edu > innovate > atlas-institute</p>
+        <h3><a href="https://colorado.edu/innovate/atlas-institute">ATLAS Institute | Innovation & Entrepreneurship - University of . . ,</a></h3>
+        <p>Resource that sponsores diverse interdisciplinary academic and research programs, challenging
+        community members to explore, innovate, create, and design well ...</p>
+      </div><br>
+
+    <div>
+      <p>https://www.linkedin.com > school > atlas-cu-boulder</p>
+      <h3><a href="https://linkedin.com/school/atlas-cu-boulder">ATLAS Institute at CU Boulder Employees, Location, Alumni</a></h3>
+      <p>ATLAS is an interdisciplinary institute for radical creativity and invention where ingenious ideas become reality.
+      <strong>ATLAS Institute</strong> at CU Boulder. View all open ...</p>
+    </div><br>
+
+    <div>
+      <p>https://typemoon.fandom.com > wiki > Atlas</p>
+      <h3><a href="https://typemoon.fandom.com/wiki/Atlas">Atlas | TYPE-MOON Wiki | Fandom</a></h3>
+      <p>It is an <strong>institute</strong> focused on the study and development of alchemy, but its members broke off
+      from the mainstream modern practice of alchemy that originated in ...</p>
+      <p><a href="https://typemoon.fandom.com/wiki/Atlas#External_Relationships">External Relationships</a> <a href="https://typemoon.fandom.com/wiki/Atlas#Alchemist_of_Atlas">Alchemist of Atlas</a>
+        <a href="https://typemoon.fandom.com/wiki/Atlas#Activities">Activities </a> <a href="https://typemoon.fandom.com/wiki/Atlas#Headquarters">Headquarters</a></p>
+    </div><br>
+
+    <div>
+      <p>https://www.internationalaffairshouse.org</p>
+      <h3><a href="https://www.internationalaffairshouse.org">ATLAS Institute for International Affairs: Home</a></h3>
+      <p><strong>ATLAS Institute</strong> for International Affairs - The HArmony of Opposite Tensions. ...<strong>ATLAS Institute</strong>.
+      The World's Leading Open-Access Think-Tank and Publisher...</p>
+    </div><br>
+</section>
+</div>
+
+    <div>  <!--challenge 5 -->
+    <section id="Challenge5.5" style="margin-top: 10px">
+      <h2>Challenge 5: Accessibility Concerns</h2>
+      <p><em>Updates: I made the margin spacing smaller.</em></p>
+      <p>Challenge 2 is accessible to colorblind users because the white and black
+        chess pieces are high contrast. Additionally, it is just a chessboard representation
+        so there is no clicking necessary and thus not reliant on a mouse. However,
+        there is also no alternative text since unicode characters are used in lieu
+        of images. A possible solution may be to add a description of the chessboard
+        at the bottom and provide hidden text behind each piece in addition to a labeled
+        grid system so that assistive screenreaders can communicate positions.</p>
+    </section>
+    </div>
+
+    <div> <!--part 3, homework 5 -->
+    <section id="Part3" style="margin-top: 10px">
+      <p>I found the kdb tag, which is used to show keyboard commands. I searched for new types of inline elements and found
+         one that seemed easy to use. I was surprised to see that it was an actual tag, not just some type in Courier font.
+          I think this could be really useful on pages where people try to explain keyboard shortcuts. I might use it to leave
+        myself a note about the shortcuts I can use in Atom like <kbd>cmd+S</kbd> to save as I work between the code and live server.</p>
+      </section>
+    </div>
+  </body>
+</html>
