@@ -1,0 +1,71 @@
+h2::first-letter{
+  font-size: 110%;
+}
+
+h1{
+  font-family: 'Noto Serif', serif;
+  font-style: oblique;
+}
+
+h2{
+  font-family: 'Noto Serif', serif;
+}
+
+h3{
+  font-family: 'Noto Serif', serif;
+}
+
+body{
+  color: #79AEA3;
+  background-color:#ffffff;
+}
+
+ul{
+  list-style:none;
+}
+
+li{
+  line-height:2em;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#name{
+  color: #9BA2FF;
+  font-size: 200%;
+  font-style: oblique;
+}
+
+.left{
+  color: #484041;
+  text-align: left;
+  border:3px solid #ffffff;
+  padding: 100px;
+  width: 20%;
+  position: absolute;
+}
+
+img{
+  width:200px;
+  height:200px;
+}
+
+.main{
+  color: #484041;
+  text-align: left;
+  width:50%;
+  float:right;
+  padding: 150px;
+  border:2px solid #ffffff;
+}
+
+a{
+  color: #434371;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+  color: #EBBAB9;
+}
