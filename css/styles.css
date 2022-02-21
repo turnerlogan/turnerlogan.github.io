@@ -2,10 +2,6 @@ h2::first-letter{
   font-size: 110%;
 }
 
-.main{
-  font-family: 'Noto Serif', serif;
-}
-
 h1{
   font-family: 'Noto Serif', serif;
   font-style: oblique;
@@ -50,6 +46,7 @@ p{
   padding: 100px;
   width: 20%;
   position: absolute;
+  font-family: 'Noto Serif', serif;
 }
 
 img{
@@ -64,6 +61,7 @@ img{
   float:right;
   padding: 150px;
   border:2px solid #ffffff;
+  font-family: 'Noto Serif', serif;
 }
 
 a{
