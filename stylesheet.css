@@ -1,0 +1,252 @@
+/* h1 & p fonts */
+h1{
+  font-family: 'Noto Serif', serif;
+  font-style: normal;
+  color: #9BA2FF;
+  font-size: 200%;
+}
+
+h2{
+  color: #9BA2FF;
+  font-size: 200%;
+  font-style: oblique;
+  font-family: 'Noto Serif', serif;
+}
+
+h3{
+  font-family: 'Noto Serif', serif;
+  color: #9BA2FF;
+}
+
+p{
+  font-family: 'Montserrat',sans-serif;
+}
+
+body{
+  color: #79AEA3;
+  background-color:#ffffff;
+}
+
+ul{
+  list-style:none;
+}
+
+li{
+  line-height:2em;
+}
+
+a{
+  color: #434371;
+  font-family: 'Montserrat', sans-serif;
+}
+
+img{
+
+}
+
+/* classes */
+.grid-container{
+
+}
+
+.nav-menu{
+  height:100%;
+}
+
+.navigation{
+
+}
+
+.main{
+
+}
+
+.hamburger{
+  height: 45px;
+  margin: 10px;
+  display: -ms-grid;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  z-index: 120;
+}
+
+.hamburger div {
+  background-color: rgb(61, 61, 61);
+  position: relative;
+  width: 40px;
+  height: 5px;
+  margin-top: 7px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#toggle1:checked + .hamburger .top {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  margin-top: 22.5px;
+}
+
+#toggle1:checked + .hamburger .middle {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  margin-top: -5px;
+}
+
+#toggle1:checked + .hamburger .bottom {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+#toggle1:checked ~ .menu {
+  height: 340px;
+}
+
+.menu{
+  width: 100%;
+  background-color: #9BA2FF;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  grid-template-rows: 1fr repeat(4, 0.5fr);
+  grid-row-gap: 25px;
+  padding: 0;
+  list-style: none;
+  clear: both;
+  width: auto;
+  text-align: center;
+  height: 0px;
+  overflow: hidden;
+  transition: height .4s ease;
+  z-index: 120;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.menu a:first-child {
+  margin-top: 40px;
+}
+
+.menu a:last-child {
+  margin-bottom: 40px;
+}
+
+.link{
+
+}
+
+/* id's */
+#home{
+
+}
+
+#navbar{
+
+}
+
+#toggle{
+  display: none;
+}
+
+#main-head{
+
+}
+
+#headshot{
+
+}
+
+#welcome-header{
+
+}
+
+#body-text{
+
+}
+
+#about{
+
+}
+
+#main-head{
+
+}
+
+#collage{
+
+}
+
+#resume-text{
+
+}
+
+#contact{
+
+}
+
+#main-head{
+
+}
+
+#contact-text{
+
+}
+
+#porfolio{
+
+}
+
+#project-inner-link{
+
+}
+
+#project-TOC{
+
+}
+
+#project-main{
+
+}
+
+#project{
+
+}
+
+#project-title{
+
+}
+
+#project-description{
+
+}
+
+#project-image{
+
+}
+
+/* types */
+
+/*put media queries at end of css*/
+@media screen and (min-width:401px){ /*for computers*/
+
+}
+
+@media screen and (max-width:400px){ /*for phones*/
+
+  #footer {
+     position:absolute;
+     bottom:0;
+     width:100%;
+     height:5px;   /* Height of the footer */
+     background:#9BA2FF;
+  }
+
+  #header{
+    position: absolute;
+    top:0;
+    width:100%;
+    height:40px;
+    background:#9BA2FF;
+  }
+
+}

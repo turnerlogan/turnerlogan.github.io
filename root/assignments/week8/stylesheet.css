@@ -1,0 +1,33 @@
+@media screen and (max-width: 200px) {
+  div{
+    background-color: green;
+    padding: 20px;
+  }
+
+  p{
+    background-color: yellow;
+  }
+}
+
+/* This will be the default css if the screen size specs above are not met*/
+div{
+  display:flex;
+  background-color: pink;
+  padding: 20px;
+}
+
+p{
+  background-color: green;
+}
+
+@media screen and (width: 600px){
+  p{
+    background-color: red;
+  }
+}
+
+@media screen and (min-width:800px){
+  .container {
+    margin: 40px;
+  }
+}
