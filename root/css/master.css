@@ -32,12 +32,18 @@ p{
   color: #484041;
 }
 
-a{
+.nav{
     color: #9BA2FF;
     font-family: 'Noto Serif', serif;
     text-decoration: none;
     background-color: #434371;
     padding: 10px;
+}
+
+a{
+  color: #9BA2FF;
+  font-family: 'Noto Serif', serif;
+  text-decoration: none;
 }
 
 img{
@@ -97,6 +103,7 @@ img{
 .message{
     grid-column: 3/5;
     grid-row: 3/4;
+    text-align: left;
 }
 }
 
