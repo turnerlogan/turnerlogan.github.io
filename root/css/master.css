@@ -45,7 +45,6 @@ img{
     max-height:75%;
 }
 
-
 @media screen and (min-width:481px){ /*for computers*/
 .container{
     display: grid;
@@ -99,78 +98,6 @@ img{
     grid-column: 3/5;
     grid-row: 3/4;
 }
-.about-container{
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "nav    nav    nav     nav     nav"
-                         "...    photo1 head    head    head"
-                         "photo2  ...   message message location"
-                         "...    photo3 message message location"
-                         "photo4  ...   message message location"
-                         "...    photo5 message message location"
-                         "photo6  ...   message message location";
-    margin: 40px;
-}
-
-.photo1{
-    grid-column: 2/2;
-    grid-row: 2/2;
-    padding:20px;
-    text-align: center;
-}
-
-.photo2{
-    grid-column: 1/1;
-    grid-row: 3/3;
-    padding:20px;
-    text-align: center;
-}
-
-.photo3{
-    grid-column: 2/2;
-    grid-row: 4/4;
-    padding:20px;
-    text-align: center;
-}
-
-.photo4{
-    grid-column: 1/1;
-    grid-row: 5/5;
-    padding:20px;
-    text-align: center;
-}
-
-.photo5{
-    grid-column: 2/2;
-    grid-row: 6/6;
-    padding:20px;
-    text-align: center;
-}
-
-.photo6{
-    grid-column: 1/1;
-    grid-row: 7/7;
-    padding:20px;
-    text-align: center;
-}
-
-.about-head{
-    grid-column: 3/6;
-    grid-row: 2/3;
-}
-
-.about-message{
-    grid-column: 3/5;
-    grid-row: 3/8;
-    text-align: right;
-}
-
-.location{
-    grid-column: 5/6;
-    grid-row: 3/8;
-    text-align: right;
-}
 }
 
 @media screen and (max-width:480px){ /*for phones*/
@@ -223,61 +150,5 @@ img{
     grid-row: 7;
     font-size: 300%;
 }
-.about-container{
-font-size: 300%;
-display: grid;
-grid-template-rows: 5% 5% 5% 5% 30% 10% 40%;
-grid-template-areas: "nav"
-                     "nav"
-                     "nav"
-                     "nav"
-                     "about-head"
-                     "about-message"
-                     "photo1"
-                     "photo2"
-                     "photo3"
-                     "photo4"
-                     "photo5"
-                     "photo6";
-}
-
-.about-head{
-grid-row: 5;
-font-size: 200%;
-}
-
-.about-message{
-grid-row: 6;
-font-size: 300%;
-}
-.photo1{
-grid-row: 7;
-padding:20px;
-text-align: center;
-}
-.photo2{
-grid-row: 8;
-padding:20px;
-text-align: center;
-}
-.photo3{
-grid-row: 9;
-padding:20px;
-text-align: center;
-}
-.photo4{
-grid-row: 10;
-padding:20px;
-text-align: center;
-}
-.photo5{
-grid-row: 11;
-padding:20px;
-text-align: center;
-}
-.photo6{
-grid-row: 12;
-padding:20px;
-text-align: center;
 }
 }
