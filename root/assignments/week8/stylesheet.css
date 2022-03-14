@@ -27,7 +27,9 @@ p{
 }
 
 @media screen and (min-width:800px){
+
   .container {
     margin: 40px;
   }
+
 }
