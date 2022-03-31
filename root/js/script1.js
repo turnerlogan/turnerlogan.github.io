@@ -1,14 +1,4 @@
-let myButton = document.querySelector('button');
-
-function buttonResponse(){
-  alert('Hey! Do not click me!');
-}
-
-myButton.mouseover = function() {
-  buttonResponse();
-}
-
-document.querySelector('button').addEventListener('mouseover',
+document.querySelector('button').addEventListener('button',
 function(){
   alert('Hey! Do not click me!');
 });
