@@ -7,7 +7,7 @@ function(){
 
 let button = document.querySelector('button').addEventListener('click', destinationGuess);
 
-button.onclick = function destinationGuess () {
+function destinationGuess () {
   let destination = prompt('Guess the location.');
   if(destination === 'Miami'){
     alert('Yes! It was so fun!');
