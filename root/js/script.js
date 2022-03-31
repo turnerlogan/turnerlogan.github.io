@@ -1,11 +1,11 @@
-document.querySelector('button').addEventListener('button',
+document.querySelector('p').addEventListener('mouseover',
 function(){
   alert('Hey! Do not click me!');
 });
 
 
 
-const para = document.querySelector('p');
+const para = document.querySelector('button');
 
 para.addEventListener('click', destinationGuess);
 
