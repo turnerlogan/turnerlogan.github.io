@@ -1,16 +1,14 @@
-document.querySelector('p').addEventListener('mouseover',
+let para = document.querySelector('p').addEventListener('mouseover',
 function(){
   alert('Hey! Do not click me!');
 });
 
 
 
-const para = document.querySelector('button');
+let button = document.querySelector('button').addEventListener('click', destinationGuess);
 
-para.addEventListener('click', destinationGuess);
-
-function destinationGuess () {
-  let destination = 'Miami';
+button.onclick = function destinationGuess () {
+  let destination = prompt('Guess the location.');
   if(destination === 'Miami'){
     alert('Yes! It was so fun!');
   }
