@@ -79,10 +79,6 @@ header {
   cursor: not-allowed;
 }
 
-html {
-    box-sizing: border-box;
-}
-
 body{
     background-color:#D3CFCF;
 }
@@ -114,17 +110,6 @@ p{
   padding: 3px 3px 3px 3px;
   border: 2px;
   display: inline-block;
-}
-
-a{
-  color: #9BA2FF;
-  font-family: 'Noto Serif', serif;
-  text-decoration: none;
-}
-
-img{
-    max-width:75%;
-    max-height:75%;
 }
 
 @media screen and (max-width: 600px) {
