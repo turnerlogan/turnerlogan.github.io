@@ -12,8 +12,8 @@ html {
 
 .app {
   position: absolute;
-  top: 75%;
-  left: 75%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   width: 800px;
   height: 800px;
@@ -31,8 +31,8 @@ header {
 }
 
 .quotes {
-  padding: 200px 50px;
-  max-height: 600px;
+  padding: 20px 50px;
+  max-height: 200px;
 }
 
 .quote-text {
