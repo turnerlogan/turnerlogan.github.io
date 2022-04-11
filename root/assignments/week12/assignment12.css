@@ -36,7 +36,7 @@ header {
 
 .quote-text {
   padding-bottom: 20px;
-  font-size: 60px;
+  font-size: 20px;
   font-family: 'Montserrat',sans-serif;
   color: #484041;
   text-align: center;
@@ -45,7 +45,6 @@ header {
 .quote-image{
   width: 50%;
   height: 50%;
-  align-content: center;
 }
 
 .controls {
@@ -90,7 +89,6 @@ font-family: 'Noto Serif', serif;
   font-style: normal;
   color: #9BA2FF;
 }
-
 
 @media screen and (max-width: 600px) {
   .app {
