@@ -46,6 +46,7 @@ header {
 .quote-image{
   width: 50%;
   height: 50%;
+  align-items: center;
 }
 
 .controls {
