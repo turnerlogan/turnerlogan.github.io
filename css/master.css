@@ -85,7 +85,7 @@ button{
     text-decoration: none;
     background-color: #434371;
     padding: 3px 10px;
-    margin: 0px;
+    margin: 5px;
 }
 
 a{
@@ -212,31 +212,25 @@ img{
 @media screen and (max-width:480px){ /*for phones*/
     .container{
     margin: 10px;
-    font-size: 80%;
 }
 
 .menu-1{
-    margin: 10px;
     text-align: center;
     color:#9BA2FF;
 }
 .menu-2{
-  margin: 10px;
   text-align: center;
   color:#9BA2FF;
 }
 .menu-3{
-  margin: 10px;
   text-align: center;
   color:#9BA2FF;
 }
 .menu-4{
-  margin: 10px;
   text-align: center;
   color:#9BA2FF;
 }
 .menu-5{
-  margin: 10px;
   text-align: center;
   color:#9BA2FF;
 }
