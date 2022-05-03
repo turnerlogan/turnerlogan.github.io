@@ -248,12 +248,14 @@ img{
 }
 
 .photo{
-    margin: 15px 0px 0px 0px;
-    text-align: center;
+    margin: 15px 0px 0px 50px;
+    width: 60%
+
 }
 
 .header{
   margin: 2px;
+  font-size: 80%;
 }
 
 .message{
