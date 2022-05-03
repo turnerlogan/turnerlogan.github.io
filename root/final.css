@@ -6,8 +6,8 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-  margin: 0;
-  padding: 0;
+  margin: 20px;
+  padding: 20px;
 }
 
 .app {
@@ -57,7 +57,7 @@ header, h1 {
   border-bottom: 1px solid #ebebeb;
   font-family: 'Noto Serif', serif;
   font-style: normal;
-  color: #9BA2FF;
+  color: #434371;
 }
 
 p{
@@ -181,11 +181,11 @@ h3{
 
 .head{
     grid-row: 6;
-    font-size: 200%;
+    font-size: 50%;
 }
 
 .message{
     grid-row: 7;
-    font-size: 300%;
+    font-size: 30%;
 }
 }
