@@ -67,7 +67,7 @@ p{
   display: inline-block;
 }
 
-button{
+button, .button, .new-plan{
   font-family: 'Montserrat',sans-serif;
   text-transform: uppercase;
   text-align: center;
