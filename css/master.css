@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    margin: 20px;
+    margin: 50px;
 }
 
 *,
@@ -96,6 +96,7 @@ a{
 
 img{
     width: 100%;
+    max-width: 200px;
 }
 
 .header{
