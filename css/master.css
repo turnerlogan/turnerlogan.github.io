@@ -84,7 +84,7 @@ button{
     font-family: 'Noto Serif', serif;
     text-decoration: none;
     background-color: #434371;
-    padding: 3px 100px;
+    padding: 3px 10px;
     margin: 0px;
 }
 
@@ -96,6 +96,10 @@ a{
 
 img{
     width: 40%;
+}
+
+.message{
+  padding: 0px 10px 0px 10px;
 }
 
 .api-data {
