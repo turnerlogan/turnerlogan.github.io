@@ -71,7 +71,7 @@ p{
 }
 
 h2{
-  color: #9BA2FF;
+  color: #434371;
   font-style: oblique;
   font-family: 'Noto Serif', serif;
 }
@@ -141,8 +141,9 @@ h3{
 
   .container{
   display: grid;
-  grid-template-rows: 5% 5% 5% 5% 30% 10% 40%;
+  grid-template-rows: 5% 5% 5% 5% 5% 25% 10% 40%;
   grid-template-areas: "nav"
+                       "nav"
                        "nav"
                        "nav"
                        "nav"
@@ -175,19 +176,25 @@ h3{
   color:#9BA2FF;
 }
 
+.menu-5{
+  grid-row: 5;
+  text-align: center;
+  color: #9BA2FF;
+}
+
 }.photo{
-    grid-row: 5;
+    grid-row: 6;
     padding:1px;
     text-align: center;
 }
 
 .head{
-    grid-row: 6;
+    grid-row: 7;
     font-size: 30%;
 }
 
 .message{
-    grid-row: 7;
+    grid-row: 8;
     font-size: 100%;
 }
 }
