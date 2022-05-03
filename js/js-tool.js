@@ -26,8 +26,8 @@ async function getDrink(endpointDrink){
 
     const json = await response.json();
     console.log(json);
-    displayDrink(json.drinks.strDrink);
-    displayDrinkImage(json.drinks.strDrinkThumb);
+    displayDrink(json.drinks[0].strDrink);
+    displayDrinkImage(json.drinks[0].strDrinkThumb);
   } catch(err){
     console.log(err)
     // alert('Failed');
@@ -44,8 +44,8 @@ async function getMeal(endpointMeal){
     const json = await response.json();
     console.log(json);
 
-    displayMeal(json.meals.strMeal);
-    displayMealImage(json.meals.strMealThumb);
+    displayMeal(json.meals[0].strMeal);
+    displayMealImage(json.meals[0].strMealThumb);
   } catch(err){
     console.log(err)
     // alert('Failed');
