@@ -44,8 +44,8 @@ async function getMeal(endpointMeal){
     const json = await response.json();
     console.log(json);
 
-    displayMeal(json.strMeal);
-    displayMealImage(json.strMealThumb);
+    displayMeal(json.meals.strMeal);
+    displayMealImage(json.meals.strMealThumb);
   } catch(err){
     console.log(err)
     // alert('Failed');
