@@ -293,11 +293,13 @@ html{
     grid-column: 1/1;
     grid-row: 8/8;
     align-items: center;
+    max-width: 150px;
 }
 #photo-2{
     margin: 15px 0px 0px 5px;
     grid-column: 2/2;
     grid-row: 9/9;
     align-items: center;
+    max-width: 150px;
 }
 }
