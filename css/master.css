@@ -250,6 +250,7 @@ img{
 .photo{
     margin: 15px 0px 0px 0px;
     text-align: center;
+    width: 40%;
 }
 
 .header{
@@ -258,6 +259,6 @@ img{
 
 .message{
     margin: 2px;
-    font-size: 60%
+    font-size: 80%;
 }
 }
