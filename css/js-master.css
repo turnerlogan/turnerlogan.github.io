@@ -191,6 +191,7 @@ img{
     grid-column: 3/6;
     grid-row: 2/3;
     text-align: right;
+    font-size: 80%;
 }
 
 .message{
