@@ -201,6 +201,7 @@ img{
     grid-column: 1/3;
     grid-row: 3/4;
     text-align: center;
+    margin:20px;
 }
 
 .header{
