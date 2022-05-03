@@ -131,7 +131,7 @@ img{
 .container{
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
-    grid-template-rows: 10% 20% 35% 35%;
+    grid-template-rows: 10% 10% 40% 40%;
     grid-template-areas: "nav nav nav nav nav"
                          "header header header header header"
                          "photo-1 photo-1 button message message"
