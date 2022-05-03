@@ -203,7 +203,7 @@ img{
     text-align: center;
 }
 
-.head{
+.header{
     grid-column: 5/6;
     grid-row: 2/3;
     text-align: right;
