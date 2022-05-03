@@ -176,7 +176,7 @@ img{
     grid-row: 3/4;
     text-align: center;
     margin: 20px;
-    width: 60%;
+    max-height: 200px;
 }
 
 #photo-2{
@@ -184,7 +184,7 @@ img{
   grid-row: 4/5;
   text-align: center;
   margin: 20px;
-  width: 60%;
+  max-height: 200px;
 }
 
 .button{
