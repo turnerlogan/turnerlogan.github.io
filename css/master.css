@@ -1,7 +1,6 @@
 html {
     box-sizing: border-box;
-    margin: 10px;
-    padding: 5px;
+    margin: 20px;
 }
 
 *,
@@ -52,7 +51,7 @@ h3{
 h4{
   font-family: 'Montserrat',sans-serif;
   color: #9BA2FF;
-  margin: 0px;
+  margin: 2px;
 }
 
 div{
@@ -63,8 +62,8 @@ div{
 p{
   font-family: 'Montserrat',sans-serif;
   color: #484041;
-  padding: 0px;
-  border: 1rem;
+  padding: 2px;
+  margin: 0px 0px 2px 0px;
   display: inline-block;
 }
 
