@@ -251,6 +251,7 @@ img{
     margin: 15px 0px 0px 0px;
     text-align: center;
     width: 40%;
+    align-items: center;
 }
 
 .header{
