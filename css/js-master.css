@@ -77,6 +77,7 @@ button, .button, .new-plan{
   box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
   display: inline-block;
   cursor: pointer;
+  padding: 5px;
 }
 
 .nav{
