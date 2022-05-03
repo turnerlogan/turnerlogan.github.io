@@ -26,8 +26,8 @@ async function getDrink(endpointDrink){
 
     const json = await response.json();
     console.log(json);
-    displayDrink(json.strDrink);
-    displayDrinkImage(json.strDrinkThumb);
+    displayDrink(json.cocktail.drinks[0].strDrink);
+    displayDrinkImage(json.cocktail.drinks[0].strDrinkThumb);
   } catch(err){
     console.log(err)
     // alert('Failed');
