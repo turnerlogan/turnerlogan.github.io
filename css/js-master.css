@@ -257,6 +257,8 @@ img{
   margin: 2px;
   grid-column: 1/2;
   grid-row: 6/6;
+  text-align: center;
+  font-size: 80%;
 }
 
 .button{
@@ -273,7 +275,6 @@ img{
 }
 #photo-1{
     margin: 15px 0px 0px 0px;
-    text-align: center;
     width: 40%;
     grid-column: 1/2;
     grid-row: 9/9;
@@ -281,7 +282,6 @@ img{
 }
 #photo-2{
     margin: 15px 0px 0px 0px;
-    text-align: center;
     width: 40%;
     grid-column: 2/3;
     grid-row: 9/9;
