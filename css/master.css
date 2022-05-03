@@ -101,6 +101,7 @@ img{
 .header{
   padding:5px;
   margin: 5px;
+  text-align: right;
 }
 
 .message{
