@@ -95,8 +95,7 @@ a{
 }
 
 img{
-    width: 100%;
-    max-height: 300px;
+    max-height: 400px;
 }
 
 .header{
@@ -123,8 +122,8 @@ img{
 }
 
 .drink-image, .meal-image {
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 40%;
   align-items: center;
 }
 
