@@ -84,8 +84,8 @@ button{
     font-family: 'Noto Serif', serif;
     text-decoration: none;
     background-color: #434371;
-    padding: 3px 10px;
-    margin: 5px;
+    padding: 5px;
+    margin: 3px;
 }
 
 a{
@@ -217,26 +217,31 @@ img{
 .menu-1{
     text-align: center;
     color:#9BA2FF;
+    padding: 10px;
 }
 .menu-2{
   text-align: center;
   color:#9BA2FF;
+  padding: 10px;
 }
 .menu-3{
   text-align: center;
   color:#9BA2FF;
+  padding: 10px;
 }
 .menu-4{
   text-align: center;
   color:#9BA2FF;
+  padding: 10px;
 }
 .menu-5{
   text-align: center;
   color:#9BA2FF;
+  padding: 10px;
 }
 
 .photo{
-    margin: 5px;
+    margin: 15px 0px 0px 0px;
     text-align: center;
 }
 
@@ -247,5 +252,6 @@ img{
 
 .message{
     margin: 2px;
+    font-size: 60%
 }
 }
