@@ -1,7 +1,27 @@
 html {
     box-sizing: border-box;
-    margin: 1rem;
-    padding: 1rem;
+    margin: 10px;
+    padding: 5px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 800px;
+  background-color: #D3CFCF;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
 }
 
 body{
@@ -77,6 +97,53 @@ a{
 
 img{
     width: 40%;
+}
+
+.api-data {
+  padding: 20px 50px;
+  max-height: 200px;
+}
+
+.drink-text, .meal-text, .activity-text {
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-family: 'Montserrat',sans-serif;
+  color: #484041;
+  text-align: center;
+}
+
+.drink-image, .meal-image {
+  width: 50%;
+  height: 50%;
+  align-items: center;
+}
+
+.controls {
+  width: 100%;
+  padding: 20px 50px;
+}
+
+.button, .new-plan {
+  display: inline-block;
+  color: #9BA2FF;
+  border-radius: 4px;
+  border-top: 20px;
+  padding: 1rem;
+  cursor: pointer;
+  text-align: right;
+  font-size: 20px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+  font-family: 'Montserrat',sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+
+.new-plan:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
 }
 
 @media screen and (min-width:481px){ /*for computers*/
